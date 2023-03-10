@@ -1,0 +1,78 @@
+.window{
+    height: 600px;
+    width: 600px;
+    margin: 0px 30px 30px 30px;
+    
+}
+
+.first_line{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.prise{
+    background: #f68d00;
+    color: #fff; /* Цвет текста */
+    padding: 20px 10px 10px 10px; /* Поля вокруг текста */
+    border-radius: 25px;
+    height: 40px;
+    width: 120px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1000px;
+    right: 0px;
+    top: 200px;
+    bottom: 0px;
+
+}
+
+.contento {
+	flex: 1 0 auto;
+
+}
+
+/*оплата*/
+.wait{
+    list-style-type: none;
+    text-decoration: none;
+    color:#000;
+}
+.waito{
+    display: block;
+}
+#id_clock{
+    font-size: 32px;
+}
+.box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+
+
+.proper{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    left: 650px;
+    right: 0px;
+    top: 200px;
+    bottom: 0px;
+}
+
+
